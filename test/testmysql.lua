@@ -107,7 +107,7 @@ end
 local function init()
     connect()
 
-    for i = 1, #(opts) do
+    for i = 1, #opts do
         test_opt(i)
     end
 
