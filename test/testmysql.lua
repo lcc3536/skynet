@@ -20,11 +20,11 @@ local opts = {
     },
     [2] = {
         desc = "create table test",
-        sql = "create table " .. table_name .. " (id serial primary key, name varchar(5))"
+        sql = "create table " .. table_name .. " (id serial primary key, name varchar(10))"
     },
     [3] = {
         desc = "insert test",
-        sql = "insert into " .. table_name .. " (name) values (\'Bob\'),(\'\'),(null)"
+        sql = "insert into " .. table_name .. " (name) values (\'oppai\'),(\'嘿嘿\'),(\'\'),(null)"
     },
     [4] = {
         desc = "select test",
