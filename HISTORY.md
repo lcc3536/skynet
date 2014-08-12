@@ -1,3 +1,16 @@
+v0.5.2 (2014-8-11)
+-----------
+* Bugfix : httpd request
+* Bugifx : http chunked mode
+* Add : httpc
+* timer support more than 497 days
+
+v0.5.1 (2014-8-4)
+-----------
+* Bugfix : http module
+* Bugfix : multicast local channel delete
+* Bugfix : socket.read(fd)
+
 v0.5.0 (2014-7-28)
 -----------
 * skynet.exit will quit service immediately.
